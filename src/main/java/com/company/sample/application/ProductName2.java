@@ -35,6 +35,7 @@ public enum ProductName{
          * it results in an exception being thrown, comment the below two lines to fix it and uncomment line 43
          */
         ProductName productName = ProductName.valueOf(name);
+        ProductName productName2 = ProductName.valueOf(name);
         return Optional.of(productName);
 
         /**
